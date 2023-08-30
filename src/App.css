@@ -1,32 +1,301 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Onboarding{
+  background: rgb(216, 255, 255);
+  color: black;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.head{
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+}
+.navigation{
+  margin: 0px 100px 60px 0px;
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding-bottom: 55px;
+}
+.navigation ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+  margin-top: 8px;
+  margin-right: 300px;
+}
+.navigation ul a{
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 18px;
+  font-weight: 600;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.navigation ul a:hover{
+  transition: .4s;
+  color: rgb(7, 205, 255);
 }
+.navbar{
+  height: 12vh;
+  line-height: 10vh;
+  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+  color: #fff;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+}
+.Download button{
+  padding: 7px 20px 7px 20px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 11px;
+  background: rgb(7, 205, 255);
+}
+.Download button:hover{
+  transition: .4s;
+  background: aliceblue;
+}
+.logo100{
+  display: flex;
+  align-items: center;
+  margin-bottom: 120px;
+}
+.logo100 img{
+  margin: 10px 0px 0px 70px;
+}
+.logo100 span{
+  font-size: 20px;
+  font-weight: 500;
+  margin: 10px 0px 0px 5px;
+  padding: 0px 0px 0px 0px;
+  cursor: pointer;
+}
+.main-container{
+  display: flex;
+  align-items: center;
+}
+.main-container .Explore{
+  padding: 10px 20px 10px 20px;
+  border-radius: 20px;
+  background: rgb(7, 205, 255);
+  margin-left: 150px;
+  font-weight: 600;
+}
+.main-container .Explore:hover{
+  transition: .4s;
+  background: azure;
+  transform: translateY(3px);
+}
+.main-container h1{
+  font-size: 65px;
+}
+.main-container p{
+  font-size: 20px;
+  color: rgb(49, 48, 48);
+  margin-bottom: 50px;
+}
+.what{
+  margin-left: 40px;
+}
+.yes{
+  margin-top: 150px;
+}
+.first{
+  margin-left: 100px;
+}
+.second{
+  margin-left: 50px;
+}
+.App-logo3{
+  margin-left: 170px;
+}
+.App-logo2{
+  margin-right: 15px;
+}
+.App-logo4{
+  margin-right: 20px;
+}
+
+.main-container10{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 150px;
+}
+.left-main-container10{
+  margin-left: 230px;
+}
+.left-main-container10 h1{
+  margin-bottom: 40px;
+  font-weight: 700;
+  font-size: 45px;
+}
+.right-main-container10{
+  margin-right: 230px;
+  margin-bottom: 30px;
+  font-weight: 600;
+  line-height: 30px;
+}
+.main-container2{
+  height: 700px;
+  margin-top: 100px;
+}
+.main-container2 .head2{
+  display: block;
+  margin-left: 40%;
+  margin-top: 100px;
+}
+.main-container2 .head2 h1{
+  margin-left: 30px;
+  font-size: 45px;
+}
+.main-container2 .head2 p{
+  color: rgb(70, 69, 69);
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.main-container2 .frame{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.main-container2 .frame .left-frame{
+  margin-left: 100px;
+}
+.main-container2 .frame .left-frame h2{
+  font-size: 35px;
+  font-weight: 500;
+}
+.main-container2 .frame .left-frame h3{
+  margin-top: 40px;
+  font-size: 35px;
+  font-weight: 500;
+}
+.main-container2 .frame .right-frame{
+  margin-right: 30px;
+}
+
+
+
+
+
+.main-container4{
+  color: black;
+  height: 600px;
+  margin-left: 50px;
+  margin-top: 150px;
+}
+.main-container4 h1{
+  font-size: 50px;
+  margin-left: 140px;
+}
+.main-container4 input{
+  background-color: rgb(211, 211, 211);
+  color: black;
+  font-size: 20px;
+}
+.main-container4 .forms .full-name{
+  display: block;
+  padding: 15px 200px 20px 20px;
+  border-radius: 10px;
+  margin-top: 40px;
+  color: black;
+}
+.main-container4 .forms .email{
+  display: block;
+  padding: 15px 200px 20px 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.main-container4 .forms .message{
+  display: block;
+  padding: 20px 200px 200px 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.main-container4 .submit button{
+  padding: 10px 50px 10px 50px;
+  border-radius: 10px;
+  background-color: rgb(7, 205, 255);
+  margin-top: 30px;
+  margin-left: 150px;
+  font-size: 20px;
+}
+.main-container4 .submit button:hover{
+  transition: .4s;
+  background: azure;
+}
+
+.footer-body{
+  color: white;
+  background-color: black;
+}
+.Rack{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 150px;
+  margin-right: 100px;
+  padding-top: 50px;
+}
+.Rack h3{
+  font-size: 30px;
+  margin-left: 20px;
+}
+.Rack p{
+  font-size: 20px;
+}
+.Company{
+  margin-left: 50px;
+}
+.Company p:hover{
+  color:rgb(7, 205, 255);
+  cursor: pointer;
+  transition: .4s;
+}
+.Services ul{
+  margin-top: 10px;
+}
+.Services li{
+  list-style-type: none;
+  line-height: 30px;
+}
+.Services li:hover{
+  transition: .4s;
+  color:rgb(7, 205, 255);
+  transform: translateX(-10px);
+  cursor: pointer;
+}
+.copyright{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  padding-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 100px;
+  cursor: pointer;
+}
+.socials{
+  margin-right: 200px;
+  margin-top: 10px;
+}
+.socials .icon{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.socials a{
+  margin-left: 30px;
+  color: #fff;
+}
+.socials a:hover{
+  color: rgb(7, 205, 255);
+  transition: .4s;
+  transform: translateY(5px);
+}
+
+
 
 @keyframes App-logo-spin {
   from {
